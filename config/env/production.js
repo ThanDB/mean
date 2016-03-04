@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  db: 'mongodb://' + ('ds053295.mlab.com:53295' || 'localhost') + '/clouddb',
+  db: 'mongodb://dbmongouser:dbmongopass@ds053295.mlab.com:53295/clouddb',
   /**
    * Database options that will be passed directly to mongoose.connect
    * Below are some examples.
